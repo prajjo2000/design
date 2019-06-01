@@ -1,0 +1,91 @@
+*{
+    font-family: cursive;
+}
+body{
+    background-image:-webkit-linear-gradient(-64.2deg , #FFFFFF 50% , #2076FF 50%);
+    min-height: 97.7vh;
+    background-repeat: no-repeat;
+    background-position: cover;
+}
+.container{
+    position:fixed;
+    display: flex;
+    margin-left: 310px;
+    margin-top: 180px;
+    border-radius: 20px;
+}
+
+.firstcol ul li , .secondcol ul li, .thirdcol ul li{
+    list-style: none;
+    padding: 10px;
+}
+
+.secondcol ul li input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid gray;
+}
+
+.secondcol ul li button , .firstcol ul li button  {
+    padding: 10px;
+    background-color:#007AFF;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+}
+
+#butto{
+    padding: 10px;
+    background-color:white;
+    color: #007AFF;
+    text-decoration: none;
+    border-radius: 20px;
+    padding-left: 35px;
+    padding-right: 35px;
+    border: none;
+}
+.thirdcol ul li img {
+    height: 270px;
+}
+
+.firstcol{
+    background-color: #03A9F5;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    color: white;
+    width: 200px;
+}
+
+.secondcol,.thirdcol{
+    background-color: white;
+}
+.thirdcol{
+    
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+#wel{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #007AFF;
+}
+#sign{
+    color: #E9F5FD;
+    font-size: 25px;
+    text-align: center;
+}
+
+#travel{
+    text-align: center;
+    font-size: 24px;
+}
+
+.secondcol ul li button{
+    margin-top: 70px;
+    margin-left: 40px;
+}
